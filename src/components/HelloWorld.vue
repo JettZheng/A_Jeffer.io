@@ -1,6 +1,9 @@
 <template>
   <div class="hello">
     <h1>{{ msg }}</h1>
+    <el-button>buttondi</el-button>
+    <button>buttondi</button>
+    <el-input placeholder="please enter..."></el-input>
     <p>
       For a guide and recipes on how to configure / customize this project,<br>
       check out the
