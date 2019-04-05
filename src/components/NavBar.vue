@@ -1,5 +1,5 @@
 <template>
-<div>
+<div class="navbar">
     <div class="menu-toggle" id="hamburger">
             <i class="fas fa-bars"></i>
         </div>
@@ -20,11 +20,14 @@
 
 <script>
 export default {
-
+	name:'NavBar'
 }
 </script>
 
 <style>
+.navbar{
+  margin:0;
+}
 .container{
 	max-width: 120rem;
 	width: 90%;
@@ -113,7 +116,7 @@ nav ul li a:last-child{
 	transition: opacity 30ms;
 	transform: scale(0);
 	opacity: 0;
-  display: none;
+  	display: none;
 }
 
 nav ul li a:hover{
@@ -196,7 +199,7 @@ nav ul li a:hover:after{
 		font-size: 2.5rem;
 	}
 
-	.brand{
+	.name{
 		font-size: 5rem;
 	}
   

@@ -18,21 +18,15 @@ export default {
 <style>
 #app{
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  margin: 0;
-	padding: 0;
-	box-sizing: border-box;
+  overflow: hidden;
 }
 
-#app html{
+/* #app html{
   font-size: 10px;
 	font-family: "Roboto Cn", sans-serif;
-}
+}  */
 
-#app header{
-	width: 100%;
-	height: 100vh;
-	background: linear-gradient(to bottom, rgba(0,0,0,.8), rgba(0,0,0,.5)), url("https://static.techspot.com/images2/news/bigimage/2018/05/2018-05-30-image-23.jpg") center no-repeat;
-	background-size: cover;
-	position: absolute;
+body{
+  margin: 0 !important;
 }
 </style>
