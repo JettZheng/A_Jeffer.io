@@ -1,5 +1,5 @@
 <template>
-<div class="navbar">
+<div class="fixed-top">
     <div class="menu-toggle" id="hamburger">
             <i class="fas fa-bars"></i>
         </div>
@@ -25,9 +25,14 @@ export default {
 </script>
 
 <style>
-.navbar{
-  margin:0;
+.fixed-top {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
 }
+
 .container{
 	max-width: 120rem;
 	width: 90%;
@@ -116,7 +121,7 @@ nav ul li a:last-child{
 	transition: opacity 30ms;
 	transform: scale(0);
 	opacity: 0;
-  	display: none;
+	display: none;
 }
 
 nav ul li a:hover{
@@ -205,9 +210,9 @@ nav ul li a:hover:after{
   
   .overlay.menu-open,
   nav.menu-open{
-	  display: flex;
-	  transform: scale(1);
-	  opacity: 1;
+	display: flex;
+	transform: scale(1);
+	opacity: 1;
   }
   
 }
