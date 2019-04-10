@@ -1,21 +1,24 @@
 <template>
   <div id="app">
     <div class="background">
+          <SocialLink/>
           <MainIntro/>
     </div>
     <NavBar/>
-
   </div>
 </template>
 
 <script>
-import NavBar from "./components/NavBar.vue";
+import NavBar from "./components/NavBar.vue"
 import MainIntro from './components/MainIntro.vue'
+import SocialLink from './components/SocialLink.vue'
+
 export default {
   name: "app",
   components: {
     NavBar,
-    MainIntro
+    MainIntro,
+    SocialLink
   }
 };
 </script>
