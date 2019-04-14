@@ -6,7 +6,7 @@
         <div class="overlay"></div>
         <div class="container">
             <nav>
-                <h1 class="name"><a href="index.html">Paion Jeffery</a></h1>
+                <a class="name" href="index.html">Paion Jeffery</a>
                 <ul>
                     <li><a href="#">Home</a></li>
                     <li><a href="#">Services</a></li>
@@ -57,9 +57,8 @@ nav{
 	font-size: 1.6rem;
 }
 
-.name a{
-	font-size: 3rem;
-	font-weight: 300;
+.name{
+	font-size: 20px;
     color:white;
     text-decoration: none;
 	opacity: 1;
@@ -84,27 +83,24 @@ nav ul li:nth-child(1){
 }
 
 nav ul li:nth-child(2){
-	animation-delay: 0.2s;
+	animation-delay: 0.05s;
 }
 
 nav ul li:nth-child(3){
-	animation-delay: 0.4s;
+	animation-delay: 0.1s;
 }
 
 nav ul li:nth-child(4){
-	animation-delay: 0.6s;
+	animation-delay: 0.15s;
 }
 
 nav ul li a{
 	padding: 8px 15px 10px 15px;
 	margin: 0 3rem;
 	position: relative;
-	letter-spacing: 2px;
-	font-size: 15px;
-	font-weight: 300;
+	font-size: 1rem;
     color: white;
     text-decoration: none;
-
 }
 
 nav ul li a:last-child{

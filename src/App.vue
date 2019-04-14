@@ -24,8 +24,10 @@ export default {
 </script>
 
 <style>
+@import './assets/font.scss';
+
 #app {
-  font-family: "Gravity-Regular", Helvetica, Arial, sans-serif;
+  font-family: "Gravity-Bold", Helvetica, Arial, sans-serif;
   overflow: hidden;
 }
 
